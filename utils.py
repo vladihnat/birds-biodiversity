@@ -94,6 +94,58 @@ def clean_gps(df: pd.DataFrame) -> pd.DataFrame:
     return tmp
 
 
+def clean_observations(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Clean NOM FRANÇAIS
+    - Columns 0..11 are fine.
+    - Columns 12..25 must be renamed to the specified headers.
+    - Drop the first two rows (RID 0 and RID 1) after fixing headers.
+    - Fill NaNs with 0.0 for all columns *except* the last column (COMPANIED),
+      which should be filled with the empty string "".
+    """
+    tmp = df.copy()
+
+    # Ensure we have at least 26 columns
+    if tmp.shape[1] < 26:
+        raise ValueError("Expected at least 26 columns in observations sheet (indices 0..25).")
+
+    # Replace headers for columns 12..25
+    right_headers = [
+        "AL25",
+        "VL25",
+        "AL50",
+        "VL50",
+        "AL100",
+        "VL100",
+        "AG100",
+        "VG100",
+        "VOL",
+        "TOT_A",
+        "TOT_V_sV",
+        "TOT_AV_sV",
+        "TOT_AV_V",
+        "COMPANIED",
+    ]
+    new_cols = list(tmp.columns)
+    new_cols[12:26] = right_headers
+    tmp.columns = new_cols
+
+    # Drop first two rows (RID 0 and 1), then reset index
+    tmp = tmp.iloc[2:].reset_index(drop=True)
+
+    # Fill NaNs: all except last column -> 0.0; last column (COMPANIED) -> ""
+    last_col = "COMPANIED"
+    if last_col not in tmp.columns:
+        # Fallback to the last position if column label mismatch occurs
+        last_col = tmp.columns[-1]
+    numeric_like_cols = [c for c in tmp.columns if c != last_col]
+
+    tmp[numeric_like_cols] = tmp[numeric_like_cols].fillna(0.0)
+    tmp[last_col] = tmp[last_col].fillna("")
+
+    return tmp
+
+
 def save_clean_csvs(dfs: dict, out_dir: str | Path) -> dict:
     """
     Save provided cleaned DataFrames to CSV.
@@ -114,5 +166,10 @@ def save_clean_csvs(dfs: dict, out_dir: str | Path) -> dict:
         p = out_dir / "gps_milieu_clean.csv"
         dfs["GPS-MILIEU"].to_csv(p, index=False)
         written["gps_milieu_clean"] = str(p)
+
+    if "NOM FRANÇAIS" in dfs:
+        p = out_dir / "nom_francais_clean.csv"
+        dfs["NOM FRANÇAIS"].to_csv(p, index=False)
+        written["nom_francais_clean"] = str(p)
     return written
 
