@@ -16,7 +16,9 @@ Project Bird-biodiversity/
 ├─ technical_report.md               # Methods & results write-up (submission artifact) — TBD
 ├─ data/
 │  ├─ raw/                           # Original workbook (read-only)
-│  │  └─ <Observations-2012-2025.xlsx>  
+│  ├─ filtered/                      # 3 partitions of Original woorbook 
+│  ├─ cleaned/                       # Cleaned partitions
+│  │  
 │  └─ filtered/                      # Derived datasets (CSV/Parquet/Feather)
 ├─ figures/                          # Plots supporting findings (PNG/SVG/PDF)
 └─ results/                          # Tables, metrics, model outputs
