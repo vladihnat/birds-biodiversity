@@ -1,0 +1,652 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,WGS84 UTM 20,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7
+,,Transect,X,Y,,,
+,,Aéroport,714593,1614233,Mangrove,S1,SIPI
+,,Aéroport,714416,1614194,Mangrove,S1,S1P2
+,,Aéroport,714133,1614141,Mangrove,S1,S1P3
+,,Aéroport,713914,1614103,Mangrove,S1,S1P4
+,,Aéroport,713719,1614062,Mangrove,S1,S1P5
+,,Aéroport,713559,1614036,Mangrove,S1,S1P6
+,,Aéroport,713381,1614004,Mangrove,S1,S1P7
+,,Aéroport,713205,1613968,Mangrove,S1,S1P8
+,,Aéroport,713048,1613940,Mangrove,S1,S1P9
+,,Aéroport,712916,1613819,Mangrove,S1,S1P10
+,,Anse Couleuvre,691753,1641035,Forêt humide,S2,S2P1
+,,Anse Couleuvre,691872,1641189,Forêt humide,S2,S2P2
+,,Anse Couleuvre,691813,1641376,Forêt humide,S2,S2P3
+,,Anse Couleuvre,691999,1641380,Forêt humide,S2,S2P4
+,,Anse Couleuvre,692172,1641442,Forêt humide,S2,S2P5
+,,Anse Couleuvre,692361,1641475,Forêt humide,S2,S2P6
+,,Anse Couleuvre,692570,1641450,Forêt humide,S2,S2P7
+,,Anse Couleuvre,692725,1641586,Forêt humide,S2,S2P8
+,,Anse Couleuvre,692929,1641582,Forêt humide,S2,S2P9
+,,Anse Couleuvre,693114,1641579,Forêt humide,S2,S2P10
+,,Anse Mathurin,707902,1608327,Forêt sèche,S3,S3P1
+,,Anse Mathurin,707746,1608371,Forêt sèche,S3,S3P2
+,,Anse Mathurin,707592,1608388,Forêt sèche,S3,S3P3
+,,Anse Mathurin,707436,1608430,Forêt sèche,S3,S3P4
+,,Anse Mathurin,707307,1608538,Forêt sèche,S3,S3P5
+,,Anse Mathurin,707194,1608416,Forêt sèche,S3,S3P6
+,,Anse Mathurin,707050,1608416,Forêt sèche,S3,S3P7
+,,Anse Mathurin,707037,1608258,Forêt sèche,S3,S3P8
+,,Anse Mathurin,706926,1608146,Forêt sèche,S3,S3P9
+,,Anse Mathurin,706865,1608009,Forêt sèche,S3,S3P10
+,,Anse Meunier,727926,1594648,Plage,S4,S4P1
+,,Anse Meunier,728023,1594527,Plage,S4,S4P2
+,,Anse Meunier,728048,1594366,Plage,S4,S4P3
+,,Anse Meunier,728009,1594221,Plage,S4,S4P4
+,,Anse Meunier,727946,1594081,Plage,S4,S4P5
+,,Anse Meunier,728075,1593984,Plage,S4,S4P6
+,,Anse Meunier,728149,1593826,Plage,S4,S4P7
+,,Anse Meunier,728083,1593698,Plage,S4,S4P8
+,,Anse Meunier,728236,1593639,Plage,S4,S4P9
+,,Anse Meunier,728386,1593600,Plage,S4,S4P10
+,,Autre Bord,720492,1630782,Plage,S5,S5P1
+,,Autre Bord,720456,1630935,Plage,S5,S5P2
+,,Autre Bord,720495,1631077,Plage,S5,S5P3
+,,Autre Bord,720435,1631201,Plage,S5,S5P4
+,,Autre Bord,720439,1631336,Plage,S5,S5P5
+,,Autre Bord,720428,1631419,Plage,S5,S5P6
+,,Autre Bord,720505,1631553,Plage,S5,S5P7
+,,Autre Bord,720598,1631667,Plage,S5,S5P8
+,,Autre Bord,720708,1631768,Plage,S5,S5P9
+,,Autre Bord,720839,1631862,Plage,S5,S5P10
+,,Blin,724776,1631197,Forêt sèche,S6,S6P1
+,,Blin,724840,1631061,Forêt sèche,S6,S6P2
+,,Blin,724878,1630890,Forêt sèche,S6,S6P3
+,,Blin,724943,1630751,Forêt sèche,S6,S6P4
+,,Blin,725006,1630611,Forêt sèche,S6,S6P5
+,,Blin,725115,1630500,Forêt sèche,S6,S6P6
+,,Blin,725268,1630506,Forêt sèche,S6,S6P7
+,,Blin,725418,1630451,Forêt sèche,S6,S6P8
+,,Blin,725560,1630409,Forêt sèche,S6,S6P9
+,,Blin,725730,1630317,Forêt sèche,S6,S6P10
+,,Bois La Charles,721917,1610018,Forêt humide,S7,S7P1
+,,Bois La Charles,722017,1610027,Forêt humide,S7,S7P2
+,,Bois La Charles,721891,1609928,Forêt humide,S7,S7P3
+,,Bois La Charles,721955,1609762,Forêt humide,S7,S7P4
+,,Bois La Charles,721736,1609627,Forêt humide,S7,S7P5
+,,Bois La Charles,721819,1609494,Forêt humide,S7,S7P6
+,,Bois La Charles,721979,1610445,Forêt humide,S7,S7P7
+,,Bois La Charles,722319,1609835,Forêt humide,S7,S7P8
+,,Bois La Charles,722533,1609678,Forêt humide,S7,S7P9
+,,Bois La Charles,722544,1609519,Forêt humide,S7,S7P10
+,,Borelie,714196,1628248,Périurbain,S8,S8P1
+,,Borelie,713414,1629277,Périurbain,S8,S8P2
+,,Borelie,713711,1629188,Périurbain,S8,S8P3
+,,Borelie,713871,1629263,Périurbain,S8,S8P4
+,,Borelie,714078,1629191,Périurbain,S8,S8P5
+,,Borelie,714195,1629000,Périurbain,S8,S8P6
+,,Borelie,714245,1628813,Périurbain,S8,S8P7
+,,Borelie,714355,1628655,Périurbain,S8,S8P8
+,,Borelie,714153,1628506,Périurbain,S8,S8P9
+,,Borelie,714196,1628248,Périurbain,S8,S8P10
+,,Boucle du Vauclin,732991,1610597,Mangrove,S9,S9P1
+,,Boucle du Vauclin,732871,1610693,Mangrove,S9,S9P2
+,,Boucle du Vauclin,732830,1610857,Mangrove,S9,S9P3
+,,Boucle du Vauclin,732901,1611004,Mangrove,S9,S9P4
+,,Boucle du Vauclin,733001,1611132,Mangrove,S9,S9P5
+,,Boucle du Vauclin,733125,1611228,Mangrove,S9,S9P6
+,,Boucle du Vauclin,733292,1611337,Mangrove,S9,S9P7
+,,Boucle du Vauclin,733440,1611408,Mangrove,S9,S9P8
+,,Boucle du Vauclin,733602,1611514,Mangrove,S9,S9P9
+,,Boucle du Vauclin,733657,1611656,Mangrove,S9,S9P10
+,,Bouliki,707846,1626168,Forêt humide,S10,S10P1
+,,Bouliki,707661,1626257,Forêt humide,S10,S10P2
+,,Bouliki,707564,1626271,Forêt humide,S10,S10P3
+,,Bouliki,707487,1626396,Forêt humide,S10,S10P4
+,,Bouliki,707366,1626473,Forêt humide,S10,S10P5
+,,Bouliki,707324,1626614,Forêt humide,S10,S10P6
+,,Bouliki,707304,1626676,Forêt humide,S10,S10P7
+,,Bouliki,707177,1626673,Forêt humide,S10,S10P8
+,,Bouliki,707092,1626651,Forêt humide,S10,S10P9
+,,Bouliki,707057,1626731,Forêt humide,S10,S10P10
+,,Campus,705674,1617192,Périurbain,S11,S11P1
+,,Campus,705420,1617424,Périurbain,S11,S11P2
+,,Campus,705482,1617599,Périurbain,S11,S11P3
+,,Campus,705512,1617782,Périurbain,S11,S11P4
+,,Campus,705506,1617963,Périurbain,S11,S11P5
+,,Campus,705585,1618130,Périurbain,S11,S11P6
+,,Campus,705644,1618310,Périurbain,S11,S11P7
+,,Campus,705676,1618476,Périurbain,S11,S11P8
+,,Campus,705775,1618603,Périurbain,S11,S11P9
+,,Campus,705846,1618741,Périurbain,S11,S11P10
+,,Canal Cocotte,717283,1611728,Agricole,S12,S12P1
+,,Canal Cocotte,717120,1611669,Agricole,S12,S12P2
+,,Canal Cocotte,716954,1611579,Agricole,S12,S12P3
+,,Canal Cocotte,716816,1611448,Agricole,S12,S12P4
+,,Canal Cocotte,716640,1611335,Agricole,S12,S12P5
+,,Canal Cocotte,716508,1611220,Agricole,S12,S12P6
+,,Canal Cocotte,716633,1611084,Agricole,S12,S12P7
+,,Canal Cocotte,716449,1611382,Agricole,S12,S12P8
+,,Canal Cocotte,716415,1611547,Agricole,S12,S12P9
+,,Canal Cocotte,716377,1611717,Agricole,S12,S12P10
+,,Canal Dillon,710039,1616346,Urbain,S13,S13P1
+,,Canal Dillon,709964,1616132,Urbain,S13,S13P2
+,,Canal Dillon,709849,1616003,Urbain,S13,S13P3
+,,Canal Dillon,709800,1615820,Urbain,S13,S13P4
+,,Canal Dillon,709823,1615605,Urbain,S13,S13P5
+,,Canal Dillon,709939,1615389,Urbain,S13,S13P6
+,,Canal Dillon,709911,1615182,Urbain,S13,S13P7
+,,Canal Dillon,709809,1614933,Urbain,S13,S13P8
+,,Canal Dillon,709526,1614729,Urbain,S13,S13P9
+,,Canal Dillon,709378,1614646,Urbain,S13,S13P10
+,,Cap Est,730295,1613704,Agricole,S14,S14P1
+,,Cap Est,730141,1613698,Agricole,S14,S14P2
+,,Cap Est,730078,1613553,Agricole,S14,S14P3
+,,Cap Est,729922,1613558,Agricole,S14,S14P4
+,,Cap Est,729769,1613558,Agricole,S14,S14P5
+,,Cap Est,729608,1613506,Agricole,S14,S14P6
+,,Cap Est,729423,1613504,Agricole,S14,S14P7
+,,Cap Est,729265,1613453,Agricole,S14,S14P8
+,,Cap Est,729204,1613342,Agricole,S14,S14P9
+,,Cap Est,729208,1613142,Agricole,S14,S14P10
+,,Carrère,715038,1613242,Agricole,S15,S15P1
+,,Carrère,715285,1613261,Agricole,S15,S15P2
+,,Carrère,715537,1613277,Agricole,S15,S15P3
+,,Carrère,715768,1613298,Agricole,S15,S15P4
+,,Carrère,716140,1613435,Agricole,S15,S15P5
+,,Carrère,716395,1613444,Agricole,S15,S15P6
+,,Carrère,716604,1613510,Agricole,S15,S15P7
+,,Carrère,716604,1613510,Agricole,S15,S15P8
+,,Carrère,716773,1613688,Agricole,S15,S15P9
+,,Carrère,716727,1613898,Agricole,S15,S15P10
+,,Desmarinières,719767,1604968,Périurbain,S16,S16P1
+,,Desmarinières,719834,1604794,Périurbain,S16,S16P2
+,,Desmarinières,719812,1604591,Périurbain,S16,S16P3
+,,Desmarinières,719902,1604448,Périurbain,S16,S16P4
+,,Desmarinières,720005,1604296,Périurbain,S16,S16P5
+,,Desmarinières,720185,1604141,Périurbain,S16,S16P6
+,,Desmarinières,720410,1603994,Périurbain,S16,S16P7
+,,Desmarinières,720600,1604016,Périurbain,S16,S16P8
+,,Desmarinières,720860,1604005,Périurbain,S16,S16P9
+,,Desmarinières,721065,1604084,Périurbain,S16,S16P10
+,,Domaine d'Emeraude,704527,1631369,Forêt humide,S17,S17P1
+,,Domaine d'Emeraude,704579,1631507,Forêt humide,S17,S17P2
+,,Domaine d'Emeraude,704724,1631537,Forêt humide,S17,S17P3
+,,Domaine d'Emeraude,704818,1631424,Forêt humide,S17,S17P4
+,,Domaine d'Emeraude,704681,1631371,Forêt humide,S17,S17P5
+,,Domaine d'Emeraude,704826,1631409,Forêt humide,S17,S17P6
+,,Domaine d'Emeraude,704672,1631449,Forêt humide,S17,S17P7
+,,Domaine d'Emeraude,704599,1631321,Forêt humide,S17,S17P8
+,,Domaine d'Emeraude,704471,1631295,Forêt humide,S17,S17P9
+,,Domaine d'Emeraude,704379,1631417,Forêt humide,S17,S17P10
+,,Fond Baron,705363,1623439,Forêt humide,S18,S18P1
+,,Fond Baron,705474,1623541,Forêt humide,S18,S18P2
+,,Fond Baron,705593,1623631,Forêt humide,S18,S18P3
+,,Fond Baron,705714,1623715,Forêt humide,S18,S18P4
+,,Fond Baron,705586,1623793,Forêt humide,S18,S18P5
+,,Fond Baron,705511,1623925,Forêt humide,S18,S18P6
+,,Fond Baron,705477,1624071,Forêt humide,S18,S18P7
+,,Fond Baron,705343,1624003,Forêt humide,S18,S18P8
+,,Fond Baron,705305,1624147,Forêt humide,S18,S18P9
+,,Fond Baron,705327,1624300,Forêt humide,S18,S18P10
+,,Fond Rousseau,705263,1617674,Périurbain,S19,S19P1
+,,Fond Rousseau,705079,1617663,Périurbain,S19,S19P2
+,,Fond Rousseau,704901,1617655,Périurbain,S19,S19P3
+,,Fond Rousseau,704715,1617623,Périurbain,S19,S19P4
+,,Fond Rousseau,704585,1617700,Périurbain,S19,S19P5
+,,Fond Rousseau,704685,1617489,Périurbain,S19,S19P6
+,,Fond Rousseau,704565,1617328,Périurbain,S19,S19P7
+,,Fond Rousseau,704572,1617161,Périurbain,S19,S19P8
+,,Fond Rousseau,704620,1617027,Périurbain,S19,S19P9
+,,Fond Rousseau,704574,1616837,Périurbain,S19,S19P10
+,,Fond l'Etang,706274,1624126,Forêt humide,S20,S20P1
+,,Fond l'Etang,706255,1623958,Forêt humide,S20,S20P2
+,,Fond l'Etang,706244,1623802,Forêt humide,S20,S20P3
+,,Fond l'Etang,706247,1623613,Forêt humide,S20,S20P4
+,,Fond l'Etang,706427,1623534,Forêt humide,S20,S20P5
+,,Fond l'Etang,706592,1623539,Forêt humide,S20,S20P6
+,,Fond l'Etang,706337,1623463,Forêt humide,S20,S20P7
+,,Fond l'Etang,706478,1623454,Forêt humide,S20,S20P8
+,,Fond l'Etang,706637,1623434,Forêt humide,S20,S20P9
+,,Fond l'Etang,706238,1623362,Forêt humide,S20,S20P10
+,,Fonds Préville,700601,1643980,Agricole,S21,S21P1
+,,Fonds Préville,700754,1643984,Agricole,S21,S21P2
+,,Fonds Préville,700625,1643668,Agricole,S21,S21P3
+,,Fonds Préville,700523,1643469,Agricole,S21,S21P4
+,,Fonds Préville,700382,1643252,Agricole,S21,S21P5
+,,Fonds Préville,700250,1643128,Agricole,S21,S21P6
+,,Fonds Préville,700177,1642927,Agricole,S21,S21P7
+,,Fonds Préville,700104,1642768,Agricole,S21,S21P8
+,,Fonds Préville,700607,1643348,Agricole,S21,S21P9
+,,Fonds Préville,700793,1643452,Agricole,S21,S21P10
+,,Forêt la Philippe,714563,1637528,Forêt sèche,S22,S22P1
+,,Forêt la Philippe,714706,1637496,Forêt sèche,S22,S22P2
+,,Forêt la Philippe,714709,1637651,Forêt sèche,S22,S22P3
+,,Forêt la Philippe,714728,1637798,Forêt sèche,S22,S22P4
+,,Forêt la Philippe,714806,1637933,Forêt sèche,S22,S22P5
+,,Forêt la Philippe,714938,1637982,Forêt sèche,S22,S22P6
+,,Forêt la Philippe,714636,1637926,Forêt sèche,S22,S22P7
+,,Forêt la Philippe,714485,1637954,Forêt sèche,S22,S22P8
+,,Forêt la Philippe,714393,1638071,Forêt sèche,S22,S22P9
+,,Forêt la Philippe,714448,1637809,Forêt sèche,S22,S22P10
+,,Forêt la Reculée,710699,1634363,Forêt humide,S23,S23P1
+,,Forêt la Reculée,710550,1634380,Forêt humide,S23,S23P2
+,,Forêt la Reculée,710477,1634251,Forêt humide,S23,S23P3
+,,Forêt la Reculée,710339,1634315,Forêt humide,S23,S23P4
+,,Forêt la Reculée,710188,1634342,Forêt humide,S23,S23P5
+,,Forêt la Reculée,710115,1634474,Forêt humide,S23,S23P6
+,,Forêt la Reculée,709964,1634468,Forêt humide,S23,S23P7
+,,Forêt la Reculée,710295,1634171,Forêt humide,S23,S23P8
+,,Forêt la Reculée,710189,1634066,Forêt humide,S23,S23P9
+,,Forêt la Reculée,710123,1633930,Forêt humide,S23,S23P10
+,,Forêt Montravail,723114,1603747,Forêt humide,S24,S24P1
+,,Forêt Montravail,723201,1603881,Forêt humide,S24,S24P2
+,,Forêt Montravail,723318,1603993,Forêt humide,S24,S24P3
+,,Forêt Montravail,723002,1604034,Forêt humide,S24,S24P4
+,,Forêt Montravail,722649,1604076,Forêt humide,S24,S24P5
+,,Forêt Montravail,722703,1604167,Forêt humide,S24,S24P6
+,,Forêt Montravail,722968,1603712,Forêt humide,S24,S24P7
+,,Forêt Montravail,722822,1603647,Forêt humide,S24,S24P8
+,,Forêt Montravail,722667,1603625,Forêt humide,S24,S24P9
+,,Forêt Montravail,722528,1603561,Forêt humide,S24,S24P10
+,,Forêt Vatable,712729,1607879,Forêt sèche,S25,S25P1
+,,Forêt Vatable,712836,1607994,Forêt sèche,S25,S25P2
+,,Forêt Vatable,712873,1608112,Forêt sèche,S25,S25P3
+,,Forêt Vatable,712942,1608234,Forêt sèche,S25,S25P4
+,,Forêt Vatable,713071,1608314,Forêt sèche,S25,S25P5
+,,Forêt Vatable,713037,1608173,Forêt sèche,S25,S25P6
+,,Forêt Vatable,712979,1608030,Forêt sèche,S25,S25P7
+,,Forêt Vatable,713049,1607896,Forêt sèche,S25,S25P8
+,,Forêt Vatable,712985,1607752,Forêt sèche,S25,S25P9
+,,Forêt Vatable,712890,1607864,Forêt sèche,S25,S25P10
+,,Forêt Vatable 2,712540,1607872,Forêt sèche,S26,S26P1
+,,Forêt Vatable 2,712513,1608022,Forêt sèche,S26,S26P2
+,,Forêt Vatable 2,712367,1608004,Forêt sèche,S26,S26P3
+,,Forêt Vatable 2,712463,1607744,Forêt sèche,S26,S26P4
+,,Forêt Vatable 2,712743,1607686,Forêt sèche,S26,S26P5
+,,Forêt Vatable 2,712932,1607639,Forêt sèche,S26,S26P6
+,,Forêt Vatable 2,713060,1607722,Forêt sèche,S26,S26P7
+,,Forêt Vatable 2,713204,1607808,Forêt sèche,S26,S26P8
+,,Forêt Vatable 2,713109,1607929,Forêt sèche,S26,S26P9
+,,Forêt Vatable 2,713241,1608008,Forêt sèche,S26,S26P10
+,,Fort de France Centre Ville,707802,1615754,Urbain,S27,S27P1
+,,Fort de France Centre Ville,707898,1615643,Urbain,S27,S27P2
+,,Fort de France Centre Ville,708056,1615569,Urbain,S27,S27P3
+,,Fort de France Centre Ville,708179,1615456,Urbain,S27,S27P4
+,,Fort de France Centre Ville,708356,1615372,Urbain,S27,S27P5
+,,Fort de France Centre Ville,708248,1615251,Urbain,S27,S27P6
+,,Fort de France Centre Ville,708200,1615110,Urbain,S27,S27P7
+,,Fort de France Centre Ville,708063,1615205,Urbain,S27,S27P8
+,,Fort de France Centre Ville,708070,1615329,Urbain,S27,S27P9
+,,Fort de France Centre Ville,707950,1615419,Urbain,S27,S27P10
+,,Galion,721756,1627186,Agricole,S28,S28P1
+,,Galion,721653,1627337,Agricole,S28,S28P2
+,,Galion,721564,1627467,Agricole,S28,S28P3
+,,Galion,721478,1627594,Agricole,S28,S28P4
+,,Galion,721387,1627731,Agricole,S28,S28P5
+,,Galion,721295,1627869,Agricole,S28,S28P6
+,,Galion,721283,1627979,Agricole,S28,S28P7
+,,Galion,721376,1628100,Agricole,S28,S28P8
+,,Galion,721479,1628213,Agricole,S28,S28P9
+,,Galion,721533,1628182,Agricole,S28,S28P10
+,,Galion 2,720615,1628100,Agricole,S29,S29P1
+,,Galion 2,720447,1628114,Agricole,S29,S29P2
+,,Galion 2,720288,1628128,Agricole,S29,S29P3
+,,Galion 2,720214,1627992,Agricole,S29,S29P4
+,,Galion 2,720164,1627850,Agricole,S29,S29P5
+,,Galion 2,720258,1627717,Agricole,S29,S29P6
+,,Galion 2,720406,1627680,Agricole,S29,S29P7
+,,Galion 2,720531,1627773,Agricole,S29,S29P8
+,,Galion 2,720586,1627914,Agricole,S29,S29P9
+,,Galion 2,720403,1627932,Agricole,S29,S29P10
+,,Génipa,718104,1610112,Agricole,S30,S30P1
+,,Génipa,718564,1610216,Agricole,S30,S30P2
+,,Génipa,718210,1610340,Agricole,S30,S30P3
+,,Génipa,718117,1610547,Agricole,S30,S30P4
+,,Génipa,718005,1610362,Agricole,S30,S30P5
+,,Génipa,717750,1610577,Agricole,S30,S30P6
+,,Génipa,717869,1610135,Agricole,S30,S30P7
+,,Génipa,717808,1610319,Agricole,S30,S30P8
+,,Génipa,717594,1610340,Agricole,S30,S30P9
+,,Génipa,717428,1610360,Agricole,S30,S30P10
+,,Habitation Petite Rivière,719078,1620990,Agricole,S31,S31P1
+,,Habitation Petite Rivière,719017,1620876,Agricole,S31,S31P2
+,,Habitation Petite Rivière,719016,1620693,Agricole,S31,S31P3
+,,Habitation Petite Rivière,718814,1620563,Agricole,S31,S31P4
+,,Habitation Petite Rivière,718680,1620357,Agricole,S31,S31P5
+,,Habitation Petite Rivière,718553,1620616,Agricole,S31,S31P6
+,,Habitation Petite Rivière,718723,1620816,Agricole,S31,S31P7
+,,Habitation Petite Rivière,718729,1621158,Agricole,S31,S31P8
+,,Habitation Petite Rivière,718915,1621195,Agricole,S31,S31P9
+,,Habitation Petite Rivière,719199,1621134,Agricole,S31,S31P10
+,,Hôtel des Plaisirs,709787,1624922,Agricole,S32,S32P1
+,,Hôtel des Plaisirs,709650,1624835,Agricole,S32,S32P2
+,,Hôtel des Plaisirs,709763,1624691,Agricole,S32,S32P3
+,,Hôtel des Plaisirs,709895,1624601,Agricole,S32,S32P4
+,,Hôtel des Plaisirs,710042,1624519,Agricole,S32,S32P5
+,,Hôtel des Plaisirs,710186,1624498,Agricole,S32,S32P6
+,,Hôtel des Plaisirs,710337,1624493,Agricole,S32,S32P7
+,,Hôtel des Plaisirs,710495,1624404,Agricole,S32,S32P8
+,,Hôtel des Plaisirs,710663,1624348,Agricole,S32,S32P9
+,,Hôtel des Plaisirs,710689,1624199,Agricole,S32,S32P10
+,,Ilets du François,730758,1616362,Forêt sèche,S33,S33P1
+,,Ilets du François,730509,1616243,Forêt sèche,S33,S33P2
+,,Ilets du François,730865,1616465,Forêt sèche,S33,S33P3
+,,Ilets du François,731114,1616620,Forêt sèche,S33,S33P4
+,,Ilets du François,731372,1616699,Forêt sèche,S33,S33P5
+,,Ilets du François,731314,1616472,Forêt sèche,S33,S33P6
+,,Ilets du François,731152,1618130,Forêt sèche,S33,S33P7
+,,Ilets du François,731210,1618214,Forêt sèche,S33,S33P8
+,,Ilets du François,731804,1618158,Forêt sèche,S33,S33P9
+,,Ilets du François,731684,1618011,Forêt sèche,S33,S33P10
+,,Ilets du Robert,727808,1625067,Forêt sèche,S34,S34P1
+,,Ilets du Robert,727883,1624987,Forêt sèche,S34,S34P2
+,,Ilets du Robert,727950,1624778,Forêt sèche,S34,S34P3
+,,Ilets du Robert,727975,1624679,Forêt sèche,S34,S34P4
+,,Ilets du Robert,727912,1622991,Forêt sèche,S34,S34P5
+,,Ilets du Robert,727967,1622835,Forêt sèche,S34,S34P6
+,,Ilets du Robert,728058,1622868,Forêt sèche,S34,S34P7
+,,Ilets du Robert,728040,1622961,Forêt sèche,S34,S34P8
+,,Ilets du Robert,724951,1624525,Forêt sèche,S34,S34P9
+,,Ilets du Robert,725058,1624650,Forêt sèche,S34,S34P10
+,,Jeannot,697911,1622905,Périurbain,S35,S35P1
+,,Jeannot,698056,1622972,Périurbain,S35,S35P2
+,,Jeannot,698187,1623099,Périurbain,S35,S35P3
+,,Jeannot,698410,1623240,Périurbain,S35,S35P4
+,,Jeannot,698603,1623213,Périurbain,S35,S35P5
+,,Jeannot,698712,1623356,Périurbain,S35,S35P6
+,,Jeannot,698865,1623461,Périurbain,S35,S35P7
+,,Jeannot,699058,1623449,Périurbain,S35,S35P8
+,,Jeannot,699291,1623371,Périurbain,S35,S35P9
+,,Jeannot,699454,1623502,Périurbain,S35,S35P10
+,,La Démarche,703567,1621512,Périurbain,S36,S36P1
+,,La Démarche,703654,1621317,Périurbain,S36,S36P2
+,,La Démarche,703695,1621111,Périurbain,S36,S36P3
+,,La Démarche,703772,1620915,Périurbain,S36,S36P4
+,,La Démarche,703731,1620700,Périurbain,S36,S36P5
+,,La Démarche,703628,1620541,Périurbain,S36,S36P6
+,,La Démarche,703534,1620326,Périurbain,S36,S36P7
+,,La Démarche,703585,1620116,Périurbain,S36,S36P8
+,,La Démarche,703490,1619891,Périurbain,S36,S36P9
+,,La Démarche,703405,1619694,Périurbain,S36,S36P10
+,,La Démarche 2,703644,1621660,Forêt humide,S37,S37P1
+,,La Démarche 2,703657,1621819,Forêt humide,S37,S37P2
+,,La Démarche 2,703737,1621956,Forêt humide,S37,S37P3
+,,La Démarche 2,703770,1622144,Forêt humide,S37,S37P4
+,,La Démarche 2,703792,1622293,Forêt humide,S37,S37P5
+,,La Démarche 2,703864,1622434,Forêt humide,S37,S37P6
+,,La Démarche 2,703845,1622580,Forêt humide,S37,S37P7
+,,La Démarche 2,703943,1622712,Forêt humide,S37,S37P8
+,,La Démarche 2,703989,1622843,Forêt humide,S37,S37P9
+,,La Démarche 2,704014,1622981,Forêt humide,S37,S37P10
+,,Lafayette,717344,1607690,Agricole,S38,S38P1
+,,Lafayette,717270,1607834,Agricole,S38,S38P2
+,,Lafayette,717175,1607987,Agricole,S38,S38P3
+,,Lafayette,717098,1608150,Agricole,S38,S38P4
+,,Lafayette,716961,1608225,Agricole,S38,S38P5
+,,Lafayette,716805,1608253,Agricole,S38,S38P6
+,,Lafayette,716677,1608148,Agricole,S38,S38P7
+,,Lafayette,716574,1608259,Agricole,S38,S38P8
+,,Lafayette,716487,1608419,Agricole,S38,S38P9
+,,Lafayette,716551,1608577,Agricole,S38,S38P10
+,,Là-Haut,719926,1606404,Périurbain,S39,S39P1
+,,Là-Haut,720117,1606351,Périurbain,S39,S39P2
+,,Là-Haut,720324,1606131,Périurbain,S39,S39P3
+,,Là-Haut,720575,1606188,Périurbain,S39,S39P4
+,,Là-Haut,720827,1606117,Périurbain,S39,S39P5
+,,Là-Haut,721024,1606137,Périurbain,S39,S39P6
+,,Là-Haut,721204,1606194,Périurbain,S39,S39P7
+,,Là-Haut,721456,1606141,Périurbain,S39,S39P8
+,,Là-Haut,721618,1606087,Périurbain,S39,S39P9
+,,Là-Haut,721773,1606094,Périurbain,S39,S39P10
+,,Le Phare-Caravelle,726190,1633588,Forêt sèche,S40,S40P1
+,,Le Phare-Caravelle,726294,1633704,Forêt sèche,S40,S40P2
+,,Le Phare-Caravelle,726440,1633779,Forêt sèche,S40,S40P3
+,,Le Phare-Caravelle,726543,1633893,Forêt sèche,S40,S40P4
+,,Le Phare-Caravelle,726695,1633976,Forêt sèche,S40,S40P5
+,,Le Phare-Caravelle,726845,1634048,Forêt sèche,S40,S40P6
+,,Le Phare-Caravelle,727011,1634096,Forêt sèche,S40,S40P7
+,,Le Phare-Caravelle,727134,1634234,Forêt sèche,S40,S40P8
+,,Le Phare-Caravelle,727295,1634209,Forêt sèche,S40,S40P9
+,,Le Phare-Caravelle,727458,1634265,Forêt sèche,S40,S40P10
+,,Morne Aca,726464,1600000,Périurbain,S41,S41P1
+,,Morne Aca,726505,1600211,Périurbain,S41,S41P2
+,,Morne Aca,726649,1600459,Périurbain,S41,S41P3
+,,Morne Aca,726802,1600672,Périurbain,S41,S41P4
+,,Morne Aca,727020,1600738,Périurbain,S41,S41P5
+,,Morne Aca,727246,1600755,Périurbain,S41,S41P6
+,,Morne Aca,727288,1601013,Périurbain,S41,S41P7
+,,Morne Aca,727126,1601216,Périurbain,S41,S41P8
+,,Morne Aca,726991,1601397,Périurbain,S41,S41P9
+,,Morne Aca,726982,1601639,Périurbain,S41,S41P10
+,,Morne Babet,723704,1610539,Agricole,S42,S42P1
+,,Morne Babet,724147,1610622,Agricole,S42,S42P2
+,,Morne Babet,724312,1610765,Agricole,S42,S42P3
+,,Morne Babet,724407,1610650,Agricole,S42,S42P4
+,,Morne Babet,724555,1610725,Agricole,S42,S42P5
+,,Morne Babet,724593,1611192,Agricole,S42,S42P6
+,,Morne Babet,724939,1611232,Agricole,S42,S42P7
+,,Morne Babet,725129,1611095,Agricole,S42,S42P8
+,,Morne Babet,725148,1611224,Agricole,S42,S42P9
+,,Morne Babet,725433,1611442,Agricole,S42,S42P10
+,,Morne Bellevue,728574,1595986,Forêt sèche,S43,S43P1
+,,Morne Bellevue,728463,1596151,Forêt sèche,S43,S43P2
+,,Morne Bellevue,728231,1596165,Forêt sèche,S43,S43P3
+,,Morne Bellevue,728230,1596167,Forêt sèche,S43,S43P4
+,,Morne Bellevue,728338,1596169,Forêt sèche,S43,S43P5
+,,Morne Bellevue,728434,1596239,Forêt sèche,S43,S43P6
+,,Morne Bellevue,728572,1596248,Forêt sèche,S43,S43P7
+,,Morne Bellevue,728728,1596303,Forêt sèche,S43,S43P8
+,,Morne Bellevue,728826,1596165,Forêt sèche,S43,S43P9
+,,Morne Bellevue,728855,1596062,Forêt sèche,S43,S43P10
+,,Morne Cabri,714574,1616108,Mangrove,S44,S44P1
+,,Morne Cabri,714400,1616153,Mangrove,S44,S44P2
+,,Morne Cabri,714251,1616118,Mangrove,S44,S44P3
+,,Morne Cabri,714083,1616045,Mangrove,S44,S44P4
+,,Morne Cabri,713895,1615974,Mangrove,S44,S44P5
+,,Morne Cabri,713756,1615916,Mangrove,S44,S44P6
+,,Morne Cabri,713490,1615807,Mangrove,S44,S44P7
+,,Morne Cabri,713299,1615729,Mangrove,S44,S44P8
+,,Morne Cabri,713243,1615589,Mangrove,S44,S44P9
+,,Morne Cabri,713386,1615403,Mangrove,S44,S44P10
+,,Morne Gardier,713053,1604723,Forêt sèche,S45,S45P1
+,,Morne Gardier,712895,1604774,Forêt sèche,S45,S45P2
+,,Morne Gardier,712748,1604828,Forêt sèche,S45,S45P3
+,,Morne Gardier,712614,1604738,Forêt sèche,S45,S45P4
+,,Morne Gardier,713218,1604638,Forêt sèche,S45,S45P5
+,,Morne Gardier,713240,1604472,Forêt sèche,S45,S45P6
+,,Morne Gardier,713166,1604567,Forêt sèche,S45,S45P7
+,,Morne Gardier,713368,1604271,Forêt sèche,S45,S45P8
+,,Morne Gardier,713605,1604163,Forêt sèche,S45,S45P9
+,,Morne Gardier,713693,1604054,Forêt sèche,S45,S45P10
+,,Morne Raquette,728693,1608190,Périurbain,S46,S46P1
+,,Morne Raquette,728640,1608286,Périurbain,S46,S46P2
+,,Morne Raquette,728615,1608429,Périurbain,S46,S46P3
+,,Morne Raquette,728514,1608536,Périurbain,S46,S46P4
+,,Morne Raquette,728389,1608701,Périurbain,S46,S46P5
+,,Morne Raquette,728238,1608793,Périurbain,S46,S46P6
+,,Morne Raquette,728094,1608921,Périurbain,S46,S46P7
+,,Morne Raquette,727980,1609049,Périurbain,S46,S46P8
+,,Morne Raquette,727844,1609120,Périurbain,S46,S46P9
+,,Morne Raquette,727699,1609194,Périurbain,S46,S46P10
+,,Moulin à Vent,720575,1624607,Agricole,S47,S47P1
+,,Moulin à Vent,720656,1624448,Agricole,S47,S47P2
+,,Moulin à Vent,720692,1624626,Agricole,S47,S47P3
+,,Moulin à Vent,720748,1624495,Agricole,S47,S47P4
+,,Moulin à Vent,720844,1624444,Agricole,S47,S47P5
+,,Moulin à Vent,720794,1624916,Agricole,S47,S47P6
+,,Moulin à Vent,720809,1625046,Agricole,S47,S47P7
+,,Moulin à Vent,720610,1625182,Agricole,S47,S47P8
+,,Moulin à Vent,720506,1625028,Agricole,S47,S47P9
+,,Moulin à Vent,720433,1625170,Agricole,S47,S47P10
+,,O'Mullane,714554,1602701,Périurbain,S48,S48P1
+,,O'Mullane,714468,1602845,Périurbain,S48,S48P2
+,,O'Mullane,714308,1602889,Périurbain,S48,S48P3
+,,O'Mullane,714180,1602970,Périurbain,S48,S48P4
+,,O'Mullane,714059,1603091,Périurbain,S48,S48P5
+,,O'Mullane,713935,1603145,Périurbain,S48,S48P6
+,,O'Mullane,713874,1603286,Périurbain,S48,S48P7
+,,O'Mullane,713870,1603447,Périurbain,S48,S48P8
+,,O'Mullane,713836,1603610,Périurbain,S48,S48P9
+,,O'Mullane,713813,1603776,Périurbain,S48,S48P10
+,,Petit Sentier RNC,727092,1633864,Forêt sèche,S49,S49P1
+,,Petit Sentier RNC,727193,1633871,Forêt sèche,S49,S49P2
+,,Petit Sentier RNC,727244,1633801,Forêt sèche,S49,S49P3
+,,Petit Sentier RNC,727284,1633718,Forêt sèche,S49,S49P4
+,,Petit Sentier RNC,727311,1633645,Forêt sèche,S49,S49P5
+,,Petit Sentier RNC,727381,1633572,Forêt sèche,S49,S49P6
+,,Petit Sentier RNC,727418,1633526,Forêt sèche,S49,S49P7
+,,Petit Sentier RNC,727510,1633539,Forêt sèche,S49,S49P8
+,,Petit Sentier RNC,727611,1633571,Forêt sèche,S49,S49P9
+,,Petit Sentier RNC,727674,1633667,Forêt sèche,S49,S49P10
+,,Piton Crève-cœur,731569,1598839,Forêt sèche,S50,S50P1
+,,Piton Crève-cœur,731493,1598860,Forêt sèche,S50,S50P2
+,,Piton Crève-cœur,731332,1598862,Forêt sèche,S50,S50P3
+,,Piton Crève-cœur,731194,1598793,Forêt sèche,S50,S50P4
+,,Piton Crève-cœur,731069,1598706,Forêt sèche,S50,S50P5
+,,Piton Crève-cœur,731070,1598625,Forêt sèche,S50,S50P6
+,,Piton Crève-cœur,731122,1598540,Forêt sèche,S50,S50P7
+,,Piton Crève-cœur,731181,1598596,Forêt sèche,S50,S50P8
+,,Piton Crève-cœur,731410,1598795,Forêt sèche,S50,S50P9
+,,Piton Crève-cœur,731410,1598923,Forêt sèche,S50,S50P10
+,,Pointe Banane,723923,1626820,Forêt sèche,S51,S51P1
+,,Pointe Banane,723970,1626961,Forêt sèche,S51,S51P2
+,,Pointe Banane,724057,1627084,Forêt sèche,S51,S51P3
+,,Pointe Banane,724139,1627212,Forêt sèche,S51,S51P4
+,,Pointe Banane,724177,1627363,Forêt sèche,S51,S51P5
+,,Pointe Banane,724236,1627501,Forêt sèche,S51,S51P6
+,,Pointe Banane,724367,1627569,Forêt sèche,S51,S51P7
+,,Pointe Banane,724374,1627721,Forêt sèche,S51,S51P8
+,,Pointe Banane,724306,1627858,Forêt sèche,S51,S51P9
+,,Pointe Banane,724454,1627837,Forêt sèche,S51,S51P10
+,,Pointe Jean-Claude,722829,1628140,Forêt sèche,S52,S52P1
+,,Pointe Jean-Claude,722845,1628284,Forêt sèche,S52,S52P2
+,,Pointe Jean-Claude,722921,1628393,Forêt sèche,S52,S52P3
+,,Pointe Jean-Claude,723039,1628402,Forêt sèche,S52,S52P4
+,,Pointe Jean-Claude,723066,1628519,Forêt sèche,S52,S52P5
+,,Pointe Jean-Claude,723163,1628608,Forêt sèche,S52,S52P6
+,,Pointe Jean-Claude,723264,1628589,Forêt sèche,S52,S52P7
+,,Pointe Jean-Claude,723238,1628488,Forêt sèche,S52,S52P8
+,,Pointe Jean-Claude,722974,1628307,Forêt sèche,S52,S52P9
+,,Pointe Jean-Claude,722899,1628058,Forêt sèche,S52,S52P10
+,,Pointe La Rose,725928,1621635,Forêt sèche,S53,S53P1
+,,Pointe La Rose,725955,1621418,Forêt sèche,S53,S53P2
+,,Pointe La Rose,725962,1621332,Forêt sèche,S53,S53P3
+,,Pointe La Rose,726007,1621188,Forêt sèche,S53,S53P4
+,,Pointe La Rose,725965,1621050,Forêt sèche,S53,S53P5
+,,Pointe La Rose,726004,1620913,Forêt sèche,S53,S53P6
+,,Pointe La Rose,726141,1620857,Forêt sèche,S53,S53P7
+,,Pointe La Rose,726230,1620972,Forêt sèche,S53,S53P8
+,,Pointe La Rose,726301,1621289,Forêt sèche,S53,S53P9
+,,Pointe La Rose,726400,1621452,Forêt sèche,S53,S53P10
+,,Pointe Lynch,724130,1626172,Forêt sèche,S54,S54P1
+,,Pointe Lynch,723979,1626167,Forêt sèche,S54,S54P2
+,,Pointe Lynch,723822,1626169,Forêt sèche,S54,S54P3
+,,Pointe Lynch,723675,1626132,Forêt sèche,S54,S54P4
+,,Pointe Lynch,723563,1626022,Forêt sèche,S54,S54P5
+,,Pointe Lynch,723478,1625896,Forêt sèche,S54,S54P6
+,,Pointe Lynch,723399,1625769,Forêt sèche,S54,S54P7
+,,Pointe Lynch,723258,1625822,Forêt sèche,S54,S54P8
+,,Pointe Lynch,723117,1625774,Forêt sèche,S54,S54P9
+,,Pointe Lynch,723011,1625667,Forêt sèche,S54,S54P10
+,,Pointe Rouge,722350,1632523,Forêt sèche,S55,S55P1
+,,Pointe Rouge,722385,1632625,Forêt sèche,S55,S55P2
+,,Pointe Rouge,722340,1632643,Forêt sèche,S55,S55P3
+,,Pointe Rouge,722321,1632799,Forêt sèche,S55,S55P4
+,,Pointe Rouge,722368,1632882,Forêt sèche,S55,S55P5
+,,Pointe Rouge,722387,1632784,Forêt sèche,S55,S55P6
+,,Pointe Rouge,722462,1632714,Forêt sèche,S55,S55P7
+,,Pointe Rouge,722511,1632623,Forêt sèche,S55,S55P8
+,,Pointe Rouge,722500,1632531,Forêt sèche,S55,S55P9
+,,Pointe Rouge,722408,1632483,Forêt sèche,S55,S55P10
+,,Post-Colon,707416,1622025,Périurbain,S56,S56P1
+,,Post-Colon,707523,1621910,Périurbain,S56,S56P2
+,,Post-Colon,707664,1621817,Périurbain,S56,S56P3
+,,Post-Colon,707834,1621762,Périurbain,S56,S56P4
+,,Post-Colon,707974,1621663,Périurbain,S56,S56P5
+,,Post-Colon,708052,1621499,Périurbain,S56,S56P6
+,,Post-Colon,708140,1621338,Périurbain,S56,S56P7
+,,Post-Colon,708294,1621207,Périurbain,S56,S56P8
+,,Post-Colon,708408,1621316,Périurbain,S56,S56P9
+,,Post-Colon,708778,1621356,Périurbain,S56,S56P10
+,,Rivière l'Or,708520,1621894,Forêt humide,S57,S57P1
+,,Rivière l'Or,708348,1621985,Forêt humide,S57,S57P2
+,,Rivière l'Or,708180,1622087,Forêt humide,S57,S57P3
+,,Rivière l'Or,707966,1622143,Forêt humide,S57,S57P4
+,,Rivière l'Or,707774,1622231,Forêt humide,S57,S57P5
+,,Rivière l'Or,707613,1622319,Forêt humide,S57,S57P6
+,,Rivière l'Or,707455,1622426,Forêt humide,S57,S57P7
+,,Rivière l'Or,707352,1622583,Forêt humide,S57,S57P8
+,,Rivière l'Or,707088,1622684,Forêt humide,S57,S57P9
+,,Rivière l'Or,707233,1622475,Forêt humide,S57,S57P10
+,,Rocher Leclerc,726123,1618218,Forêt sèche,S58,S58P1
+,,Rocher Leclerc,726047,1618438,Forêt sèche,S58,S58P2
+,,Rocher Leclerc,726071,1618680,Forêt sèche,S58,S58P3
+,,Rocher Leclerc,726201,1618853,Forêt sèche,S58,S58P4
+,,Rocher Leclerc,726423,1618945,Forêt sèche,S58,S58P5
+,,Rocher Leclerc,726600,1618982,Forêt sèche,S58,S58P6
+,,Rocher Leclerc,726693,1619121,Forêt sèche,S58,S58P7
+,,Rocher Leclerc,726782,1619285,Forêt sèche,S58,S58P8
+,,Rocher Leclerc,726610,1619355,Forêt sèche,S58,S58P9
+,,Rocher Leclerc,726608,1619558,Forêt sèche,S58,S58P10
+,,Route Forestière de Palourde,709251,1628062,Forêt humide,S59,S59P1
+,,Route Forestière de Palourde,709121,1627986,Forêt humide,S59,S59P2
+,,Route Forestière de Palourde,709031,1628123,Forêt humide,S59,S59P3
+,,Route Forestière de Palourde,708898,1628205,Forêt humide,S59,S59P4
+,,Route Forestière de Palourde,708787,1628314,Forêt humide,S59,S59P5
+,,Route Forestière de Palourde,708636,1628355,Forêt humide,S59,S59P6
+,,Route Forestière de Palourde,708514,1628441,Forêt humide,S59,S59P7
+,,Route Forestière de Palourde,708537,1628592,Forêt humide,S59,S59P8
+,,Route Forestière de Palourde,708468,1628730,Forêt humide,S59,S59P9
+,,Route Forestière de Palourde,708317,1628749,Forêt humide,S59,S59P10
+,,Trace des Caps,733663,1596797,Plage,S60,S60P1
+,,Trace des Caps,733753,1596924,Plage,S60,S60P2
+,,Trace des Caps,733858,1597036,Plage,S60,S60P3
+,,Trace des Caps,734011,1597134,Plage,S60,S60P4
+,,Trace des Caps,734099,1597170,Plage,S60,S60P5
+,,Trace des Caps,734205,1597111,Plage,S60,S60P6
+,,Trace des Caps,734313,1597143,Plage,S60,S60P7
+,,Trace des Caps,734391,1597304,Plage,S60,S60P8
+,,Trace des Caps,734373,1597433,Plage,S60,S60P9
+,,Trace des Caps,734448,1597568,Plage,S60,S60P10
+,,Tunnel Didier 2,706041,1619823,Forêt humide,S61,S61P1
+,,Tunnel Didier 2,706047,1619957,Forêt humide,S61,S61P2
+,,Tunnel Didier 2,706063,1620114,Forêt humide,S61,S61P3
+,,Tunnel Didier 2,705972,1620242,Forêt humide,S61,S61P4
+,,Tunnel Didier 2,705896,1620360,Forêt humide,S61,S61P5
+,,Tunnel Didier 2,705872,1620513,Forêt humide,S61,S61P6
+,,Tunnel Didier 2,705814,1620604,Forêt humide,S61,S61P7
+,,Tunnel Didier 2,705765,1620758,Forêt humide,S61,S61P8
+,,Tunnel Didier 2,705809,1620911,Forêt humide,S61,S61P9
+,,Tunnel Didier 2,705729,1620984,Forêt humide,S61,S61P10
+,,Tunnel Didier,705257,1621982,Forêt humide,S62,S62P1
+,,Tunnel Didier,705402,1621778,Forêt humide,S62,S62P2
+,,Tunnel Didier,705495,1621651,Forêt humide,S62,S62P3
+,,Tunnel Didier,705439,1621525,Forêt humide,S62,S62P4
+,,Tunnel Didier,705406,1621374,Forêt humide,S62,S62P5
+,,Tunnel Didier,705439,1621229,Forêt humide,S62,S62P6
+,,Tunnel Didier,705514,1621086,Forêt humide,S62,S62P7
+,,Tunnel Didier,705570,1620933,Forêt humide,S62,S62P8
+,,Tunnel Didier,705686,1621036,Forêt humide,S62,S62P9
+,,Tunnel Didier,705796,1621103,Forêt humide,S62,S62P10
+,,Vallée Fond Lahaye,703691,1618443,Périurbain,S63,S63P1
+,,Vallée Fond Lahaye,703789,1618573,Périurbain,S63,S63P2
+,,Vallée Fond Lahaye,703897,1618703,Périurbain,S63,S63P3
+,,Vallée Fond Lahaye,703892,1618676,Périurbain,S63,S63P4
+,,Vallée Fond Lahaye,703943,1619025,Périurbain,S63,S63P5
+,,Vallée Fond Lahaye,703966,1619189,Périurbain,S63,S63P6
+,,Vallée Fond Lahaye,703974,1619366,Périurbain,S63,S63P7
+,,Vallée Fond Lahaye,704037,1619583,Périurbain,S63,S63P8
+,,Vallée Fond Lahaye,704056,1619771,Périurbain,S63,S63P9
+,,Vallée Fond Lahaye,704215,1620159,Périurbain,S63,S63P10
+,,Verrier,701228,1624531,Agricole,S64,S64P1
+,,Verrier,701088,1624429,Agricole,S64,S64P2
+,,Verrier,701114,1624596,Agricole,S64,S64P3
+,,Verrier,701210,1624700,Agricole,S64,S64P4
+,,Verrier,701127,1624877,Agricole,S64,S64P5
+,,Verrier,700971,1624814,Agricole,S64,S64P6
+,,Verrier,700758,1624817,Agricole,S64,S64P7
+,,Verrier,700502,1624779,Agricole,S64,S64P8
+,,Verrier,700317,1624579,Agricole,S64,S64P9
+,,Verrier,700146,1624476,Agricole,S64,S64P10
+,,Bois Pothau,723849,1626490,Forêt sèche,S65,S65P1
+,,Bois Pothau,723720,1626479,Forêt sèche,S65,S65P2
+,,Bois Pothau,723624,1626474,Forêt sèche,S65,S65P3
+,,Bois Pothau,723527,1626539,Agricole,S65,S65P4
+,,Bois Pothau,723442,1626626,Agricole,S65,S65P5
+,,Bois Pothau,723470,1626744,Agricole,S65,S65P6
+,,Bois Pothau,723445,1626828,Agricole,S65,S65P7
+,,Bois Pothau,723427,1626945,Forêt sèche,S65,S65P8
+,,Bois Pothau,723481,1627061,Forêt sèche,S65,S65P9
+,,Bois Pothau,723598,1627125,Forêt sèche,S65,S65P10
