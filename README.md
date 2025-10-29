@@ -17,9 +17,7 @@ Project Bird-biodiversity/
 ├─ data/
 │  ├─ raw/                           # Original workbook (read-only)
 │  ├─ filtered/                      # 3 partitions of Original woorbook 
-│  ├─ cleaned/                       # Cleaned partitions
-│  │  
-│  └─ filtered/                      # Derived datasets (CSV/Parquet/Feather)
+│  └─ cleaned/                       # Cleaned partitions
 ├─ figures/                          # Plots supporting findings (PNG/SVG/PDF)
 └─ results/                          # Tables, metrics, model outputs
 ```
