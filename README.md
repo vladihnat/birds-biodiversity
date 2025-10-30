@@ -1,8 +1,9 @@
 # Project: Bird-biodiversity 
+LEIVA Martin (n°etu), PEÑA CASTAÑO Javier (n°etu), HERRERA NATIVI Vladimir (22205706)
 
 Quantifying how biodiversity indicators have evolved over time, with statistical uncertainty assessments and species-specific narratives from a birds monitoring dataset.
 
-> **Status:** initial scaffold (README model). Replace all `TBD` blocks as the project matures.
+> **Status:** initial draft (README model). Replace all `TBD` blocks as the project matures.
 
 ---
 
