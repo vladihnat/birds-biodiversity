@@ -1,20 +1,15 @@
 """
 Minimal helpers
 - reading the three sheets from Excel and saving as CSVs
-- minimal cleaning functions for ESPECES, GPS-MILIEU and NOM FRANÇAIS (TBD) sheets
+- minimal cleaning functions for ESPECES, GPS-MILIEU and NOM FRANÇAIS sheets
 """
 from pathlib import Path
 import pandas as pd
 
-# Fixed dict: sheet name -> output CSV filename
-SHEETS_TO_CSV = {
-    "ESPECES": "especes.csv",
-    "GPS-MILIEU": "gps_milieu.csv",
-    "NOM FRANÇAIS": "observations.csv",
-}
-
-
-def split_excel_to_csvs(xlsx_path: str | Path, out_dir: str | Path) -> dict:
+# ------------------------
+# Reading / writing helpers
+# ------------------------
+def split_excel_to_csvs(xlsx_path: str | Path, out_dir: str | Path, sheet_dict: dict) -> dict:
     """
     Read the three sheets and save them as CSV files in out_dir.
     If out_dir does not exist, it is created.
@@ -25,7 +20,7 @@ def split_excel_to_csvs(xlsx_path: str | Path, out_dir: str | Path) -> dict:
     out_dir.mkdir(parents=True, exist_ok=True)
 
     written = {}
-    for sheet, filename in SHEETS_TO_CSV.items():
+    for sheet, filename in sheet_dict.items():
         df = pd.read_excel(xlsx_path, sheet_name=sheet)
         out_path = out_dir / filename
         df.to_csv(out_path, index=False)
@@ -33,11 +28,11 @@ def split_excel_to_csvs(xlsx_path: str | Path, out_dir: str | Path) -> dict:
     return written
 
 
-def load_csvs(in_dir: str | Path) -> dict:
+def load_csvs(in_dir: str | Path, sheet_dict: dict) -> dict:
     """Load the three CSVs from in_dir and return a dict sheet name -> DataFrame."""
     in_dir = Path(in_dir)
     frames = {}
-    for sheet, filename in SHEETS_TO_CSV.items():
+    for sheet, filename in sheet_dict.items():
         path = in_dir / filename
         frames[sheet] = pd.read_csv(path, low_memory=False)
     return frames
@@ -66,6 +61,11 @@ def clean_especes(df: pd.DataFrame) -> pd.DataFrame:
     # Keep only the first 3 columns and rename
     tmp = tmp.iloc[:, :3].copy()
     tmp.columns = ["ESPECIES_NAME", "LATIN_NAME", "NATURE"]
+
+    # Fill NaNs ""
+    last_col = "NATURE"
+    tmp[last_col] = tmp[last_col].fillna("")
+
     return tmp
 
 
@@ -91,6 +91,8 @@ def clean_gps(df: pd.DataFrame) -> pd.DataFrame:
         "TRANSECT_ID",
         "POINT_ID",
     ]
+    # Drop first row (RID 0), then reset index
+    tmp = tmp.iloc[1:].reset_index(drop=True)
     return tmp
 
 
@@ -104,10 +106,6 @@ def clean_observations(df: pd.DataFrame) -> pd.DataFrame:
       which should be filled with the empty string "".
     """
     tmp = df.copy()
-
-    # Ensure we have at least 26 columns
-    if tmp.shape[1] < 26:
-        raise ValueError("Expected at least 26 columns in observations sheet (indices 0..25).")
 
     # Replace headers for columns 12..25
     right_headers = [
@@ -135,9 +133,6 @@ def clean_observations(df: pd.DataFrame) -> pd.DataFrame:
 
     # Fill NaNs: all except last column -> 0.0; last column (COMPANIED) -> ""
     last_col = "COMPANIED"
-    if last_col not in tmp.columns:
-        # Fallback to the last position if column label mismatch occurs
-        last_col = tmp.columns[-1]
     numeric_like_cols = [c for c in tmp.columns if c != last_col]
 
     tmp[numeric_like_cols] = tmp[numeric_like_cols].fillna(0.0)
@@ -152,12 +147,12 @@ def save_clean_csvs(dfs: dict, out_dir: str | Path) -> dict:
 
     Expected keys in `dfs` (if present): 'ESPECES', 'GPS-MILIEU'.
     Writes files `especes_clean.csv` and `gps_milieu_clean.csv`.
-    Returns a mapping logical_name -> written path.
+    Returns a dict "logical_name" -> "written path".
     """
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    written: dict[str, str] = {}
+    written = {}
     if "ESPECES" in dfs:
         p = out_dir / "especes_clean.csv"
         dfs["ESPECES"].to_csv(p, index=False)
