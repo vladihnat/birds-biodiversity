@@ -1,5 +1,5 @@
 # Project: Bird-biodiversity 
-LEIVA Martin (n°etu), PEÑA CASTAÑO Javier (n°etu), HERRERA NATIVI Vladimir (22205706)
+LEIVA Martin (22205863), PEÑA CASTAÑO Javier (n°etu), HERRERA NATIVI Vladimir (22205706)
 
 Quantifying how biodiversity indicators have evolved over time, with statistical uncertainty assessments and species-specific narratives from a birds monitoring dataset.
 
