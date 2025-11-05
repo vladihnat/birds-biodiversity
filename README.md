@@ -113,15 +113,6 @@ Outputs land in:
 
 ---
 
-## Runtime considerations
-
-* **Excel I/O**: requires `openpyxl`; large workbooks may be slow the first time.
-* **Memory/CPU**: `TBD` (record count, footprint, and typical runtime once profiled).
-* **Randomness**: set global seeds in `main.ipynb` for reproducible bootstraps — **TBD**.
-* **Locale/timezone**: timestamps are interpreted in `Europe/Paris` unless specified — **TBD**.
-
----
-
 ## Data documentation
 
 * **Overview note**: short description of the 3 tabs and observation protocol — location **TBD**.
