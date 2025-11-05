@@ -106,6 +106,7 @@ def clean_observations(df: pd.DataFrame) -> pd.DataFrame:
       which should be filled with the empty string "".
     """
     tmp = df.copy()
+    tmp = tmp.rename(columns={"1er, 2e ou 3e passage": "N° passage"})
 
     # Replace headers for columns 12..25
     right_headers = [
