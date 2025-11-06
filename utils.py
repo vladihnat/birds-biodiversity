@@ -110,6 +110,7 @@ def clean_observations(df: pd.DataFrame) -> pd.DataFrame:
 
     # Replace headers for columns 12..25
     right_headers = [
+        "N° passage","nuages","pluie","vent","visibilité","N° point",
         "AL25",
         "VL25",
         "AL50",
