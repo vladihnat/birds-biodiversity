@@ -46,5 +46,37 @@ For columns 22 to 25 (totaux) a simalar approach was used, the first section has
 
 **This new sheets were saved in "data/cleaned"**
 
+---
 
+# Story telling 
+
+## 1. Dataset Familiarisation and Descriptive Analysis 
+
+- **Cleaning** : Talk about all the incoherences, initial problems and how we treat them in utils.py 
+- **Familarisation** : Quick glance at all the initial statistical analysis (one for each of the 3 intial tabs) and give first key insights
+
+Here we can explain the dropped columns and the new headers names, ...
+
+## 2. Multi-Year Indicator Trends
+Here we should explain in detail all the Indicator's choices, how did we treat them and the conclusions 
+
+### Density Study 
+
+### Species Diversity Study
+
+### Detectability Study (auditory V.S. visual)
+
+### Spatial Coverage Study (Explain why not intersting )
+
+## 3. Species-Level Evolution
+
+We should explain the choice of our subset (top 5 most observed birds), and then the choice of indicators to study evolution. Here we should detail our methods for bootstrapping and choice of indexes 
+
+### Abundance Evolution Study 
+
+### Per-Transect Detection Rate Evolution Study 
+
+## 4. Synthesis 
+
+Conclusions 
 ---
