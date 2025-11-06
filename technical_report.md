@@ -105,7 +105,9 @@ First of all, from the cleaned observation dataset (`nom_francais_clean`), we ag
 
 Secondly each transect’s annual count was normalized by the maximum count observed across all years:
 
-$$ \text{density\_norm}_{i,t} = \frac{\text{count}_{i,t}}{\max(\text{count}_{\text{all years}})} $$
+$$ 
+\text{density\_norm}_{i,t} = \frac{\text{count}_{i,t}}{\max(\text{count}_{\text{all years}})}
+$$
 Densities are thus scaled to the range [0, 1].
 
 After that, we used a bootstrap resampling method to estimate uncertainty:
@@ -114,7 +116,9 @@ After that, we used a bootstrap resampling method to estimate uncertainty:
 2. Compute the mean normalized density for each resample.
 3. Obtain 95% confidence intervals from the empirical quantiles of the bootstrap distribution.
 
-$$ \text{CI}_{95\%} = [\hat{\theta}^*_{2.5\%}, \hat{\theta}^*_{97.5\%}] $$
+$$ 
+\text{CI}_{95\%} = [\hat{\theta}^*_{2.5\%}, \hat{\theta}^*_{97.5\%}]
+$$
 
 For a better understanding of the computed results, we did some plots:
 - Annual mean normalized density computed and plotted over time.  
