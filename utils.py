@@ -134,13 +134,22 @@ def clean_observations(df: pd.DataFrame) -> pd.DataFrame:
 
     # Fill NaNs: all except last column -> 0.0; last column (COMPANIED) -> ""
     last_col = "COMPANIED"
-    numeric_like_cols = [c for c in tmp.columns if c != last_col]
-
-    tmp[numeric_like_cols] = tmp[numeric_like_cols].fillna(0.0)
+    numeric_like_cols = [
+        "AL25","VL25",
+        "AL50","VL50",
+        "AL100","VL100",
+        "AG100","VG100",
+        "VOL",
+        "TOT_A","TOT_V_sV","TOT_AV_sV","TOT_AV_V",
+    ]
+    tmp[numeric_like_cols] = tmp[numeric_like_cols].fillna(0)
     tmp[last_col] = tmp[last_col].fillna("")
 
-    return tmp
+    tmp[numeric_like_cols] = tmp[numeric_like_cols].apply(lambda col: pd.to_numeric(col, errors="coerce"))
+    tmp[numeric_like_cols] = tmp[numeric_like_cols].fillna(0)
+    tmp[numeric_like_cols] = tmp[numeric_like_cols].astype(int)
 
+    return tmp
 
 def save_clean_csvs(dfs: dict, out_dir: str | Path) -> dict:
     """
