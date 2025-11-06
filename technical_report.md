@@ -73,8 +73,9 @@ From the cleaned observation dataset (`nom_francais_clean`), total bird counts w
 **(b) Normalization**  
 Each transect’s annual count was normalized by the maximum count observed across all years:
 
-\[ \text{density\_norm}_{i,t} = \frac{\text{count}_{i,t}}{\max(\text{count}_{\text{all years}})} \]
-
+\[
+\text{density\_norm}_{i,t} = \frac{\text{count}_{i,t}}{\max(\text{count}_{\text{all years}})}
+\]
 Densities are thus scaled to the range [0, 1].
 
 #### 3. Bootstrap Estimation
