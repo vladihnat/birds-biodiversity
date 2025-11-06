@@ -97,7 +97,7 @@ $$
 - Per-year density distribution visualized by transect (color-coded).  
 - Temporal evolution of normalized densities visualized across transects.  
 - Bootstrap mean and confidence intervals plotted for density trends.
-- 
+  
 ### Species Diversity Study
 
 ### Detectability Study (auditory V.S. visual)
