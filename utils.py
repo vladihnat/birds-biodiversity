@@ -110,7 +110,6 @@ def clean_observations(df: pd.DataFrame) -> pd.DataFrame:
 
     # Replace headers for columns 12..25
     right_headers = [
-        "N° passage","nuages","pluie","vent","visibilité","N° point",
         "AL25",
         "VL25",
         "AL50",
@@ -136,6 +135,7 @@ def clean_observations(df: pd.DataFrame) -> pd.DataFrame:
     # Fill NaNs: all except last column -> 0.0; last column (COMPANIED) -> ""
     last_col = "COMPANIED"
     numeric_like_cols = [
+        "N° passage","nuages","pluie","vent","visibilité","N° point",
         "AL25","VL25",
         "AL50","VL50",
         "AL100","VL100",
