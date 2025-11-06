@@ -211,7 +211,7 @@ def simpson_index(counts):
 
 
 # Plot functions: 
-def plot_indicator_with_ci(df, indicator, color, ylabel):
+def plot_indicator_with_ci(df, indicator, color, ylabel, first_execution=False, OUT_FIG=Path("./figures")):
     """
     Plot annual values of an indicator with its 95% confidence interval.
 
@@ -230,9 +230,11 @@ def plot_indicator_with_ci(df, indicator, color, ylabel):
     plt.ylabel(ylabel)
     plt.legend()
     plt.tight_layout()
+    if first_execution:
+        plt.savefig(OUT_FIG / f"annual_{indicator}_with_ci.png")
     plt.show()
 
-def plot_trend_with_stats(df, indicator, color="tab:blue"):
+def plot_trend_with_stats(df, indicator, color="tab:blue", first_execution=False, OUT_FIG=Path("./figures")):
     """
     Fits a linear trend for the given indicator and plots:
     - Observed annual values
@@ -279,11 +281,13 @@ def plot_trend_with_stats(df, indicator, color="tab:blue"):
         bbox=dict(boxstyle="round,pad=0.3", facecolor="white", alpha=0.7)
     )
     plt.tight_layout()
+    if first_execution:
+        plt.savefig(OUT_FIG / f"trend_{indicator}_with_stats.png")
     plt.show()
     
     return model
 
-def plot_transect_panels_with_ci(det_tr_yr, species, n_tr=6):
+def plot_transect_panels_with_ci(det_tr_yr, species, n_tr=6, first_execution=False, OUT_FIG=Path("./figures")):
     """
     Plot detection rate trends with 95% Wilson CIs across multiple transects.
 
@@ -316,11 +320,15 @@ def plot_transect_panels_with_ci(det_tr_yr, species, n_tr=6):
         axes[i].set_title(tr); axes[i].set_xlabel("Year"); axes[i].set_ylabel("Detection rate")
     for j in range(i+1, len(axes)): axes[j].axis("off")
     fig.suptitle(f"{species} — detection rate per transect (95% CIs)")
-    plt.ylim(0, 1); plt.tight_layout(); plt.show()
+    plt.ylim(0, 1)
+    plt.tight_layout()
+    if first_execution:
+        plt.savefig(OUT_FIG / f"{species.replace(' ','_')}_detection_rate_per_transect.png")
+    plt.show()
 
 
 
-def plot_transect_with_model(det_tr_yr, species, transect):
+def plot_transect_with_model(det_tr_yr, species, transect, first_execution=False, OUT_FIG=Path("./figures")):
     """
     Plot detection rates and logistic trend model for one transect.
 
@@ -345,7 +353,12 @@ def plot_transect_with_model(det_tr_yr, species, transect):
     plt.fill_between(fitted["year"], fitted["fit_low"], fitted["fit_high"], color="r", alpha=0.2,
                      label="95% CI (model)")
     plt.title(f"{species} — {transect}\nTrend slope={slope:.4f}, p={pval:.3f}")
-    plt.xlabel("Year"); plt.ylabel("Detection rate"); plt.legend(); plt.tight_layout(); plt.show()
+    plt.xlabel("Year"); plt.ylabel("Detection rate")
+    plt.legend()
+    plt.tight_layout()
+    if first_execution:
+        plt.savefig(OUT_FIG / f"{species.replace(' ','_')}_{transect}_detection_rate_trend.png")
+    plt.show()
 
 
 #  Bootstrap functions: 
