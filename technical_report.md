@@ -73,7 +73,7 @@ From the cleaned observation dataset (`nom_francais_clean`), total bird counts w
 **(b) Normalization**  
 Each transect’s annual count was normalized by the maximum count observed across all years:
 
-[\ \text{density\_norm}_{i,t} = \frac{\text{count}_{i,t}}{\max(\text{count}_{\text{all years}})} \]
+\[ \text{density\_norm}_{i,t} = \frac{\text{count}_{i,t}}{\max(\text{count}_{\text{all years}})} \]
 
 Densities are thus scaled to the range [0, 1].
 
@@ -85,7 +85,7 @@ A bootstrap resampling method was used to estimate uncertainty:
 2. Compute the mean normalized density for each resample.
 3. Obtain 95% confidence intervals from the empirical quantiles of the bootstrap distribution.
 
-[\ \text{CI}_{95\%} = [\hat{\theta}^*_{2.5\%}, \hat{\theta}^*_{97.5\%}] \]
+\[ \text{CI}_{95\%} = [\hat{\theta}^*_{2.5\%}, \hat{\theta}^*_{97.5\%}] \]
 
 #### 4. Derived Indicators and Visualization
 
