@@ -1,5 +1,5 @@
 # Birds Biodiversity Technical report
-LEIVA Martin (n°etu), PEÑA CASTAÑO Javier (n°etu), HERRERA NATIVI Vladimir (22205706)
+LEIVA Martin (22205863), PEÑA CASTAÑO Javier (22203616), HERRERA NATIVI Vladimir (22205706)
 
 It is to be seen if the final technical report will be written as an .md or a pdf
 
@@ -60,8 +60,44 @@ Here we can explain the dropped columns and the new headers names, ...
 ## 2. Multi-Year Indicator Trends
 Here we should explain in detail all the Indicator's choices, how did we treat them and the conclusions 
 
-### Density Study 
+### Density Study - Summary of Computations
 
+#### 1. Definition
+The density indicator measures the relative abundance of birds observed per transect and year.
+
+#### 2. Computation Steps
+
+**(a) Counting per Transect and Year**  
+From the cleaned observation dataset (`nom_francais_clean`), total bird counts were aggregated by `(year, transect)` using columns such as `TOT_A`, `TOT_V_sV`, etc.
+
+**(b) Normalization**  
+Each transect’s annual count was normalized by the maximum count observed across all years:
+
+$$
+\text{density\_norm}_{i,t} = \frac{\text{count}_{i,t}}{\max(\text{count}_{\text{all years}})}
+$$
+
+Densities are thus scaled to the range [0, 1].
+
+#### 3. Bootstrap Estimation
+
+A bootstrap resampling method was used to estimate uncertainty:
+
+1. For each year, resample transects with replacement \( B \) times (e.g. \( B = 1000 \)).
+2. Compute the mean normalized density for each resample.
+3. Obtain 95% confidence intervals from the empirical quantiles of the bootstrap distribution.
+
+$$
+\text{CI}_{95\%} = [\hat{\theta}^*_{2.5\%}, \hat{\theta}^*_{97.5\%}]
+$$
+
+#### 4. Derived Indicators and Visualization
+
+- Annual mean normalized density computed and plotted over time.  
+- Per-year density distribution visualized by transect (color-coded).  
+- Temporal evolution of normalized densities visualized across transects.  
+- Bootstrap mean and confidence intervals plotted for density trends.
+- 
 ### Species Diversity Study
 
 ### Detectability Study (auditory V.S. visual)
