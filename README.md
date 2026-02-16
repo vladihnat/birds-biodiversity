@@ -17,7 +17,6 @@ Project Bird-biodiversity/
 │  ├─ raw/                           # Original workbook (read-only)
 │  ├─ filtered/                      # 3 partitions of Original woorbook 
 │  └─ cleaned/                       # Cleaned partitions
-├─ requirements.txt                  # File for environmment reproduction
 └─ figures/                          # Plots supporting findings (PNG)
 ```
 
